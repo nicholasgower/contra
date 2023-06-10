@@ -9,7 +9,7 @@ gem 'listen'
 gem 'angularjs-rails', '~> 1.4', '>= 1.4.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.0'
+gem 'rails', '~> 6.1'
 
 gem 'pg'
 gem 'puma'
@@ -81,3 +81,4 @@ gem 'ajax-datatables-rails'
 gem 'actionview-encoded_mail_to'
 
 gem 'webpacker', '~> 4.x'
+gem 'psych', '< 4' # https://stackoverflow.com/a/71503264
