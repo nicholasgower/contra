@@ -41,9 +41,21 @@ module.exports = function(api) {
           development: isDevelopmentEnv || isTestEnv,
           useBuiltIns: true
         }
+      ],
+      [
+        require('@babel/preset-typescript').default,
       ]
     ].filter(Boolean),
     plugins: [
+      /*
+      [
+        require('@babel/plugin-transform-typescript').default,
+        {
+          isTSX: true,
+          allExtensions: true
+        }
+      ],
+      */
       require('babel-plugin-macros'),
       require('@babel/plugin-syntax-dynamic-import').default,
       isTestEnv && require('babel-plugin-dynamic-import-node'),

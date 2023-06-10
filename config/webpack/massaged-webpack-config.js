@@ -20,8 +20,10 @@ if (!tsClause) {
     "surprised about not finding ts-loader in the use array: ",
     tsClause.use
   )
-} else {
-  tsClause.use.push({ loader: "eslint-loader", options: {} })
-}
+} //else {
+  //tsClause.use.push({ loader: "eslint-webpack-plugin", options: {} })
+//}
+const ESLintPlugin = require('eslint-webpack-plugin');
+module.exports.plugins = [new ESLintPlugin()]
 
 module.exports = webPackConfig

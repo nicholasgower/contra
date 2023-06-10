@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@babel/preset-react": "^7.6.3",
+    "@babel/preset-typescript": "~7",
     "@rails/webpacker": "5.4.4",
     "@types/js-cookie": "^2.2.4",
     "@types/react": "^16.9.19",
@@ -12,8 +13,8 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-table": "^7.0.0-rc.15",
-    "ts-loader": "^6.2.1",
-    "typescript": "^3.7.5",
+    "ts-loader": "~8.2.0",
+    "typescript": "~5",
     "use-breakpoint": "^1.1.2"
   },
   "devDependencies": {
@@ -23,16 +24,17 @@
     "@types/jest": "^24.0.23",
     "@typescript-eslint/eslint-plugin": "^2.12.0",
     "@typescript-eslint/parser": "^2.12.0",
+    "@webpack-cli/serve": "^2.0.5",
     "eslint": "^7.2.0",
     "eslint-config-prettier": "^6.7.0",
-    "eslint-loader": "^4.0.2",
+    "eslint-webpack-plugin": "^4.0.1",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^2.3.0",
     "jest": "^24.8.0",
     "prettier": "1.18.2",
     "react-test-renderer": "^16.13.1",
     "ts-jest": "^24.2.0",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "~3"
   },
   "license": "AGPL-3.0-or-later",
   "scripts": {
