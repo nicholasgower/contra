@@ -6,8 +6,8 @@ import {
   SearchDancesJson,
 } from "./dance-table"
 import DialectContext from "./dialect-context"
-import useFilter from "use-filter"
-import { useBootstrap3Breakpoint, Breakpoint } from "use-bootstrap3-breakpoint"
+import useFilter from "./use-filter"
+import { useBootstrap3Breakpoint, Breakpoint } from "./use-bootstrap3-breakpoint"
 import useSessionStorage from "./use-session-storage"
 import SearchTabs from "./search-tabs"
 import DesktopSearchWithSideTabs from "./desktop-search-with-side-tabs"

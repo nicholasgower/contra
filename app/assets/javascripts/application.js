@@ -15,7 +15,7 @@
 //= require jquery_ujs
 //= require dataTables/jquery.dataTables
 //= require dataTables/bootstrap/3/jquery.dataTables.bootstrap
-//= require jquery-ui/autocomplete
+//= require jquery-ui/widgets/autocomplete
 //= require bootstrap-sprockets
 //= require bootstrap-toggle
 //= require angular

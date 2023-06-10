@@ -17,6 +17,9 @@ module.exports = function(api) {
 
   return {
     presets: [
+      [
+        require('@babel/preset-typescript').default,
+      ],
       isTestEnv && [
         require('@babel/preset-env').default,
         {
@@ -41,9 +44,6 @@ module.exports = function(api) {
           development: isDevelopmentEnv || isTestEnv,
           useBuiltIns: true
         }
-      ],
-      [
-        require('@babel/preset-typescript').default,
       ]
     ].filter(Boolean),
     plugins: [
