@@ -80,5 +80,4 @@ gem 'ajax-datatables-rails'
 
 gem 'actionview-encoded_mail_to'
 
-gem 'webpacker', '~> 4.x'
-gem 'psych', '< 4' # https://stackoverflow.com/a/71503264
+gem 'webpacker', '~> 5.x'
