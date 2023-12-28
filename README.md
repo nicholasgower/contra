@@ -67,10 +67,10 @@ Then I errored out for lack of postgres, so I did a detour:
 For my OS I followed https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04 , basically:
 
 ```
-sudo apt install postgresql postgresql-contrib
+sudo apt install postgresql postgresql-contrib libpq-dev
 ```
 
-Then I had to also install `libpq-dev` for whatever reason.
+I had to also install `libpq-dev` for whatever reason.
 
 ### Run `bin/rails server`
 
